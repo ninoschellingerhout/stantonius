@@ -1,0 +1,12 @@
+body {
+  background: pink;
+}
+
+p {
+  color: green;
+  font-size: 40px;
+
+  &:last-child {
+    color: black;
+  }
+}

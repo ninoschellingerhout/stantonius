@@ -1,0 +1,14 @@
+body {
+  background: pink;
+}
+
+p {
+  color: green;
+  font-size: 40px;
+}
+
+p:last-child {
+  color: black;
+}
+
+/*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoic3R5bGUuY3NzIiwic291cmNlcyI6WyJzdHlsZS5zY3NzIl0sInNvdXJjZXNDb250ZW50IjpbImJvZHkge1xuICBiYWNrZ3JvdW5kOiBwaW5rO1xufVxuXG5wIHtcbiAgY29sb3I6IGdyZWVuO1xuICBmb250LXNpemU6IDQwcHg7XG5cbiAgJjpsYXN0LWNoaWxkIHtcbiAgICBjb2xvcjogYmxhY2s7XG4gIH1cbn1cbiJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxBQUFBLElBQUksQ0FBQztFQUNILFVBQVUsRUFBRSxJQUFJO0NBQ2pCOztBQUVELEFBQUEsQ0FBQyxDQUFDO0VBQ0EsS0FBSyxFQUFFLEtBQUs7RUFDWixTQUFTLEVBQUUsSUFBSTtDQUtoQjs7QUFQRCxBQUlFLENBSkQsQUFJQyxXQUFZLENBQUM7RUFDWCxLQUFLLEVBQUUsS0FBSztDQUNiIn0= */
