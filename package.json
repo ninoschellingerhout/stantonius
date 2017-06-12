@@ -1,0 +1,22 @@
+{
+  "name": "st-antonius",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://ninoschellingerhout@github.com/ninoschellingerhout/stantonius.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ninoschellingerhout/stantonius/issues"
+  },
+  "homepage": "https://github.com/ninoschellingerhout/stantonius#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
