@@ -1,0 +1,74 @@
+/*------------------------------------*\
+  #GLOBAL STYLES
+\*------------------------------------*/
+
+#ac_debug_panel,
+#ac_debug_title{
+	left: 0;
+}
+
+*{
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+html{
+	font-size: 62.5%;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+
+	@include mq-mobile {
+		font-size: 56%;
+	}
+}
+
+::selection{
+	background: $color-selection;
+	text-shadow: $text-shadow-sm;
+	color: #fff;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+	background: $color-white--alt;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: $scrollbar-color;
+}
+
+// img reset
+img{
+	max-width: 100%;
+  height: auto;
+}
+
+.bx-wrapper .bx-next {
+	&:hover {
+		background-position: -43px -32px;
+	}
+}
+
+body{
+	padding-top: 175px; // navheight
+
+	@include mq-tablet {
+		padding-top: 80px	// navheight
+	}
+}
+
+// wrapper
+.wrapper{
+	padding: 30px;
+	max-width: 1000px;
+	margin: 0 auto;
+
+	@include mq-mobile {
+		padding: 20px;
+	}
+}
+
+figure{
+	margin: 0;
+}

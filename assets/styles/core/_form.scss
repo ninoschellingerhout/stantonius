@@ -1,0 +1,83 @@
+/*------------------------------------*\
+  #Form
+\*------------------------------------*/
+
+// global styling of the input
+textarea,
+select,
+input {
+  outline: none;
+  display: block;
+  width: 100%;
+  background: #fff;
+  padding: 0.55em 1.1em;
+  border-radius: 3px;
+  border: none;
+  font-weight: 400;
+  max-width: 300px;
+  box-sizing: border-box;
+
+}
+
+input[type=submit],
+input[type=radio],
+input[type=checkbox]{
+  width: initial;
+}
+
+input[type=submit] {
+  @extend .btn;
+  @extend .btn--rounded;
+  @extend .btn--big;
+  border: none;
+  margin-top: 15px;
+}
+
+label {
+  margin-bottom: 8px;
+  display: block;
+  font-weight: 600;
+}
+
+input[type=radio]~label {
+  display: initial;
+}
+
+.checkbox,
+.radio{
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  user-select: none;
+
+  input[type="checkbox"],
+  input[type="radio"]{
+    margin: 0 10px 0 0;
+  }
+}
+
+.input{
+  margin-bottom: 2.5rem;
+  background: $gallery;
+}
+
+// Btn group
+.btn-group {
+  display: flex;
+
+  .input {
+    margin: 0;
+    display: inline;
+  }
+}
+
+.search-bar-header .btn-group {
+  display: flex;
+  margin: 0 auto;
+  width: 400px;
+
+  .input {
+    margin: 0;
+    display: inline;
+  }
+}

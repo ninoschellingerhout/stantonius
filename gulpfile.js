@@ -5,8 +5,8 @@ var sourcemaps = require('gulp-sourcemaps');
 var autoprefixer = require('gulp-autoprefixer');
 var sassdoc = require('sassdoc');
 
-var input = '../st-antonius/assets/scss/**/*.scss';
-var output = '../st-antonius/assets/css';
+var input = '../assets/styles/components/**/*.scss';
+var output = '../st-antonius/assets/styles/css';
 
 var sassOptions = {
   errLogToConsole: true,

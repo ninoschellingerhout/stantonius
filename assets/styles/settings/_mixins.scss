@@ -1,0 +1,123 @@
+/*------------------------------------*\
+  #MEDIA QUERRIES
+\*------------------------------------*/
+
+@mixin mq-mobile {
+  @media (max-width: #{$mobile-width}) {
+    @content;
+  }
+}
+
+@mixin mq-mobile-up {
+  @media (min-width: #{$mobile-width}) {
+    @content;
+  }
+}
+
+@mixin mq-tablet {
+  @media (max-width: #{$tablet-width}){
+    @content;
+  }
+}
+
+@mixin mq-tablet-up {
+  @media (min-width: #{$tablet-width}){
+    @content;
+  }
+}
+
+@mixin mq-desktop {
+  @media (max-width: #{$desktop-width}) {
+    @content;
+  }
+}
+
+@mixin mq-desktop-up {
+  @media (min-width: #{$desktop-width}) {
+    @content;
+  }
+}
+
+
+// Boostrap/Foundation
+@mixin mq-xl-up {
+  @media (min-width: #{$xl}) {
+    @content;
+  }
+}
+
+@mixin mq-lg-up {
+  @media (min-width: #{$lg}) {
+    @content;
+  }
+}
+
+@mixin mq-md-up {
+  @media (min-width: #{$md}) {
+    @content;
+  }
+}
+
+@mixin mq-sm-up {
+  @media (min-width: #{$sm}) {
+    @content;
+  }
+}
+
+@mixin mq-xs-up {
+  @media (min-width: #{$xs}) {
+    @content;
+  }
+}
+
+
+
+
+
+@mixin mq-xl {
+  @media (max-width: #{$xl}) {
+    @content;
+  }
+}
+
+@mixin mq-lg {
+  @media (max-width: #{$lg}) {
+    @content;
+  }
+}
+
+@mixin mq-md {
+  @media (max-width: #{$md}) {
+    @content;
+  }
+}
+
+@mixin mq-sm {
+  @media (max-width: #{$sm}) {
+    @content;
+  }
+}
+
+@mixin mq-xs {
+  @media (max-width: #{$xs}) {
+    @content;
+  }
+}
+
+
+
+
+
+/*------------------------------------*\
+  #ASPECT RATIO (default 4:3)
+\*------------------------------------*/
+
+@mixin aspect-ratio($width: 4, $height: 3) {
+ position: relative;
+ &:before {
+   display: block;
+   content: "";
+   width: 100%;
+   padding-top: ($height / $width) * 100%;
+ }
+}

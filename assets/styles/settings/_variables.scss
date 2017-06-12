@@ -1,0 +1,124 @@
+/*------------------------------------*\
+  #COLORS
+\*------------------------------------*/
+
+// Colors names
+$valencia                    : #EE154A;
+$oxford                      : #1C1E23;
+$charade                     : #282C37;
+$bayoux                      : #38415F;
+$nobel                       : #B6B6B6;
+$ebb                         : #EEE8E8;
+$athens-gray                 : #f6f6f6;
+$color-overlay               : #1c1e32;
+
+
+$amaranth                    : #E6234B;
+$cinnabar                    : #EB5037;
+$java                        : #19B5BD;
+$gold-drop                   : #F07D00;
+$rolling-stone               : #77787A;
+$gallery                     : #EDEDED;
+$scorpion                    : #575757;
+
+
+
+// Element-colors
+$color-main                  : $cinnabar;
+$color-main--light				   : lighten($color-main, 10%);
+$color-main--dark				     : darken($color-main, 10%);
+
+$color-white                 : #fff;
+$color-white--alt            : $gallery;
+$color-white--dark		 		   : darken(#fff, 10%);
+
+$color-red                   : $amaranth;
+$color-red--light            :lighten($amaranth, 10%);
+$color-red--dark             :darken($amaranth, 10%);
+
+$color-grey                  : $rolling-stone;
+$color-grey--dark            : darken($rolling-stone, 10%);
+$color-border                  : $rolling-stone;
+
+$color-header						     : $rolling-stone;
+$color-body          			   : $rolling-stone;
+
+$color-selection				     : $color-main;
+$scrollbar-color				     : $color-main;
+
+
+
+
+/*------------------------------------*\
+  #GRADIENTS
+\*------------------------------------*/
+
+// Overlay
+
+$red-gradient        : linear-gradient(to right, $amaranth, $gold-drop);
+
+
+
+
+
+/*------------------------------------*\
+  #TYPOGRAHPY
+\*------------------------------------*/
+
+// Fonts
+$font-header					     : MarkOTBold, Helvetica, Arial, Sans-Serif;
+$font-body						     : MarkOT, Helvetica, Arial, Sans-Serif;
+$font-body--medium			   : MarkOTMedium, Helvetica, Arial, Sans-Serif;
+$font-body--bold					 : MarkOTBold, Helvetica, Arial, Sans-Serif;
+
+
+
+
+
+/*------------------------------------*\
+  #SHADOWS
+\*------------------------------------*/
+
+// Box-shadows
+$shadow-sm  	        		 : 1px 4px 9px rgba(0, 0, 0, 0.09), 0 4px 17px rgba(0, 0, 0, 0.1);
+$shadow-md	       			   : 5px 10px 20px rgba(0, 0, 0, 0.08), 1px 8px 46px rgba(0, 0, 0, 0.09);
+$shadow-lg	        			 : 15px 20px 30px rgba(0, 0, 0, 0.11), 1px 18px 46px rgba(0, 0, 0, 0.11);
+
+
+// Text-shadows
+$text-shadow-sm            : 2px 1px 4px rgba(#1d1d1d, 0.5);
+$text-shadow-lg            : 2px 1px 4px rgba(#1d1d1d, 0.7);
+
+
+
+
+
+/*------------------------------------*\
+  #ANIMATION
+\*------------------------------------*/
+
+// Transtions
+$transition1					    : 0.28s all ease;
+$transition2					    : 0.38s all ease;
+$transition3					    : 0.55s all ease;
+
+
+
+
+
+/*------------------------------------*\
+  #RESPONSIVE
+\*------------------------------------*/
+
+// Device widths
+$mobile-width             : 468px;
+$tablet-width             : 768px;
+$desktop-width            : 1024px;
+
+
+// Boostrap/Foundation
+$xl                       : 1200px;
+$lg                       : 979px;
+$md                       : 769px;
+$sm                       : 480px;
+$xs                       : 320px;
